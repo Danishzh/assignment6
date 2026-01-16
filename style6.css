@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(95, 16, 16);
+}
+
+.container6 {
+  justify-content: center;
+  margin-top: 100px;
+  border-radius: 3px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-rows: 80px 80px 80px 80px 80px;
+  grid-template-areas:
+    "eat1 eat1 eat3 eat4"
+    "eat5 eat6 eat7 ."
+    "eat8 eat8 eat9 eat10"
+    "eat8 eat8 eat11 ."
+    "eat12 eat12 eat12 eat13";
+}
+
+.orange {
+  background-color: orange;
+  grid-area: eat1;
+}
+
+.red {
+  background-color: red;
+  grid-area: eat3;
+}
+
+.blue {
+  background-color: blue;
+  grid-area: eat4;
+}
+
+.magenta {
+  background-color: magenta;
+  grid-area: eat5;
+}
+.green {
+  background-color: green;
+  grid-area: eat6;
+}
+.purple {
+  background-color: purple;
+  grid-area: eat7;
+}
+.yellow {
+  background-color: yellow;
+  grid-area: eat9;
+}
+
+.black {
+  background-color: black;
+  grid-area: eat8;
+}
+
+.pink {
+  background-color: pink;
+  grid-area: eat10;
+}
+.brown {
+  background-color: brown;
+  grid-area: eat11;
+}
+.gray {
+  background-color: gray;
+  grid-area: eat12;
+}
+
+.cyan {
+  background-color: cyan;
+  grid-area: eat13;
+}

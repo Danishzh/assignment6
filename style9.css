@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(63, 63, 116);
+}
+
+.container9 {
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 3px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 400px 300px 300px;
+  grid-template-rows: 90px 180px 180px;
+  grid-template-areas: "box1 box1 box1" "box2 box3 box3" "box2 box4 box5";
+}
+
+.orange {
+  background-color: orange;
+  grid-area: box1;
+}
+.red {
+  background-color: red;
+  grid-area: box2;
+}
+.blue {
+  background-color: blue;
+  grid-area: box3;
+}
+.green {
+  background-color: green;
+  grid-area: box4;
+}
+.yellow {
+  background-color: yellow;
+  grid-area: box5;
+}

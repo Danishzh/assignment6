@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container4 {
+  justify-content: center;
+  margin-top: 100px;
+  border-radius: 3px;
+  display: grid;
+  grid-gap: 12px;
+  grid-template-columns: 300px 300px 600px;
+  grid-template-rows: 150px 200px 50px;
+  grid-template-areas:
+    "rod1 rod1 rod2"
+    "rod3 rod4 rod4"
+    "rod5 rod5 rod5";
+}
+
+.orange {
+  background-color: orange;
+  grid-area: rod1;
+}
+
+.blue {
+  background-color: blue;
+  grid-area: rod2;
+}
+.green {
+  background-color: green;
+  grid-area: rod3;
+}
+.red {
+  background-color: red;
+  grid-area: rod4;
+}
+
+.yellow {
+  background-color: yellow;
+  grid-area: rod5;
+}

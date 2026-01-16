@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container7 {
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 3px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 100px 400px;
+  grid-template-areas:
+    "a b"
+    "c d";
+}
+
+.orange {
+  grid-area: a;
+  background-color: orange;
+}
+.red {
+  grid-area: b;
+  background-color: red;
+}
+.blue {
+  grid-area: c;
+  background-color: blue;
+}
+.green {
+  grid-area: d;
+  background-color: green;
+
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 150px 150px;
+  grid-template-areas:
+    "e e"
+    "f g";
+  align-content: center;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+.purple {
+  grid-area: e;
+  background-color: purple;
+}
+.yellow {
+  grid-area: f;
+  background-color: yellow;
+}
+.pink {
+  grid-area: g;
+  background-color: pink;
+}

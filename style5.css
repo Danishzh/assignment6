@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.container5 {
+  justify-content: center;
+  margin-top: 80px;
+  border-radius: 3px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 180px 180px 180px 180px 180px 180px;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-areas:
+    "a b d c e f "
+    "g h i j k l"
+    "m n o p q r";
+}
+
+.orange {
+  background-color: orange;
+  grid-area: a;
+}
+.blue {
+  background-color: blue;
+  grid-area: b;
+}
+.red {
+  background-color: red;
+  grid-area: c;
+}
+.green {
+  background-color: green;
+  grid-area: d;
+}
+.yellow {
+  background-color: yellow;
+  grid-area: e;
+}
+.purple {
+  background-color: purple;
+  grid-area: f;
+}
+.pink {
+  background-color: pink;
+  grid-area: g;
+}
+.brown {
+  background-color: brown;
+  grid-area: h;
+}
+.gray {
+  background-color: gray;
+  grid-area: i;
+}
+.olive {
+  background-color: rgb(140, 255, 207);
+  grid-area: j;
+}
+.gold {
+  background-color: rgb(253, 142, 142);
+  grid-area: k;
+}
+.cyan {
+  background-color: cyan;
+  grid-area: l;
+}
+.silver {
+  background-color: silver;
+  grid-area: m;
+}
+.maroon {
+  background-color: maroon;
+  grid-area: n;
+}
+.teal {
+  background-color: teal;
+  grid-area: o;
+}
+.navy {
+  background-color: navy;
+  grid-area: p;
+}
+.lime {
+  background-color: lime;
+  grid-area: q;
+}
+.magenta {
+  background-color: magenta;
+  grid-area: r;
+}
